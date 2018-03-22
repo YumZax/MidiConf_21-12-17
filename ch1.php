@@ -40,7 +40,7 @@
             </form>
 
             <?php if (isset($_POST['username']) && isset($_POST['pw'])){
-                    if ($_POST['username'] === 'admin' && $_POST['pw'] = "password") 
+                    if ($_POST['username'] === 'admin' && $_POST['pw'] === "password") 
                         echo '<a href="adminkevin.php"><img src="assets/matrix.jpg"></a>'; 
                     else 
                         echo 'Essaye encore';
